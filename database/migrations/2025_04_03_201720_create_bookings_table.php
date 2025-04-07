@@ -17,7 +17,7 @@ return new class extends Migration
             $table->foreignId('event_id')->constrained()->onDelete('cascade');
             $table->integer('ticket_qty');
             $table->decimal('ticket_price', 8, 2);
-            $table->enum('status', ['panding', 'confirmed', 'cancelled']);
+            $table->enum('status', ['pending', 'confirmed', 'cancelled']);
             $table->timestamps();
         });
     }
