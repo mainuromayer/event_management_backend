@@ -4,7 +4,6 @@ namespace Database\Seeders;
 
 use App\Models\Booking;
 use Illuminate\Database\Seeder;
-use Database\Seeders\BookingSeeder;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 class BookingSeeder extends Seeder
